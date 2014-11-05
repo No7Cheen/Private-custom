@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_dialog_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/alert_dialog_spacingBottom"
+    android:paddingLeft="@dimen/alert_dialog_spacingLeft"
+    android:paddingRight="@dimen/alert_dialog_spacingRight" >
+
+    <include layout="@layout/alert_dialog_menu_layout_topblank" />
+
+    <FrameLayout
+        android:id="@+id/title_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/content_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/alert_dialog_spacing"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/alert_dialog_spacing"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="none"
+        android:smoothScrollbar="true" />
+
+</LinearLayout>

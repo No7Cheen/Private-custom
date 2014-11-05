@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- comm time -->
+    <string name="today_arg">今天 %1$s</string>
+    <string name="yesterday_arg">昨天 %1$s</string>
+    <string name="monday_arg">星期一 %1$s</string>
+    <string name="tuesday_arg">星期二 %1$s</string>
+    <string name="wednesday_arg">星期三 %1$s</string>
+    <string name="thursday_arg">星期四 %1$s</string>
+    <string name="friday_arg">星期五 %1$s</string>
+    <string name="saturday_arg">星期六 %1$s</string>
+    <string name="sunday_arg">星期日 %1$s</string>
+    
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期天</string>
+
+    <!-- comm Text -->
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="time_picker_dialog_title">設置時間</string>
+    <string name="date_picker_dialog_title">設置日期</string>
+    <string name="date_time_done">完成</string>
+    <string name="date_time_cancel">取消</string>
+    <string name="error_request_failed">網路請求失敗,請稍後重試</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="cantOpen">Can\'t open this application</string>
+    <string name="cantUninstall">Can\'t uninstall this application</string>
+
+    <!-- comm time -->
+    <string name="today_arg">Today %1$s</string>
+    <string name="yesterday_arg">Yesterday %1$s</string>
+    <string name="monday_arg">Mon %1$s</string>
+    <string name="tuesday_arg">Tues %1$s</string>
+    <string name="wednesday_arg">Wed %1$s</string>
+    <string name="thursday_arg">Thur %1$s</string>
+    <string name="friday_arg">Fri %1$s</string>
+    <string name="saturday_arg">Sat %1$s</string>
+    <string name="sunday_arg">Sun %1$s</string>
+    
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tues</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thur</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    
+    <!-- comm Text -->
+    <string name="ok">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    
+    <string name="error_network_fail">Please check that your current network is available</string>
+    <string name="error_request_failed">Network unavailable. Please try again later</string>
+</resources>

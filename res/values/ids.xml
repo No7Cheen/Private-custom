@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="selected_view" type="id"/>
+    
+    <!-- overscroll -->
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="linearlayout" type="id"/>
+    <item name="frame" type="id"/>
+
+    <!-- pull-to-refresh -->
+    <item name="pull2refresh_gridview" type="id"/>
+    <item name="pull2refresh_webview" type="id"/>
+    <item name="pull2refresh_scrollview" type="id"/>
+    <item name="pull2refresh_linearlayout" type="id"/>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+
+    <declare-styleable name="OverScroll">
+
+        <!-- Drawable to use as OverScroll  Header Or Footer. -->
+        <attr name="osDrawable" format="reference" />
+
+        <!-- A drawable to use as the background of the Header and Footer Views -->
+        <attr name="osHeaderBackground" format="reference|color" />
+    </declare-styleable>
+
+</resources>

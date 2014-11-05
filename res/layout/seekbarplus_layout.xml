@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pc.ui.widget.SeekBarPlus xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/SeekBarPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip" />
+
+    <ImageView
+        android:id="@+id/seekbar_sub"
+        android:layout_width="25dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/seekBar"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        android:src="@drawable/seekbar_sub_selector" />
+
+    <ImageView
+        android:id="@+id/seekbar_add"
+        android:layout_width="25dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/seekBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/seekBar"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        android:src="@drawable/seekbar_add_selector" />
+
+</com.pc.ui.widget.SeekBarPlus>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+        Theme.AppCompat.Light.DarkActionBar
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="AppBaseTheme.windowIsTranslucent" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppBaseTheme.Light" parent="Theme.AppCompat.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="AppBaseTheme.Light.windowIsTranslucent" parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

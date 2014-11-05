@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="alert_dialog_spacing">6dp</dimen>
+    <dimen name="alert_dialog_spacingTopBlank">20dp</dimen>
+    <dimen name="alert_dialog_spacingTop">10dp</dimen>
+    <dimen name="alert_dialog_spacingLeft">10dp</dimen>
+    <dimen name="alert_dialog_spacingRight">10dp</dimen>
+    <dimen name="alert_dialog_spacingBottom">15dp</dimen>
+    <dimen name="alert_dialog_miniH">48dp</dimen>
+
+</resources>

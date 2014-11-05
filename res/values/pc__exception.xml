@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="connectexception">无法连接到网络</string>
+    <string name="unknownhostexception">连接远程地址失败</string>
+    <string name="socketexception">网络连接出错，请重试</string>
+    <string name="sockettimeoutexception">连接超时，请重试</string>
+    <string name="nullpointerexception">抱歉，远程服务出错了</string>
+    <string name="nullmessageexception">抱歉，程序出错了</string>
+    <string name="clientprotocolexception">http请求参数错误</string>
+
+</resources>

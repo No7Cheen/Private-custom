@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- comm time -->
+    <string name="today_arg">今日 %1$s</string>
+    <string name="yesterday_arg">昨日 %1$s</string>
+        <string name="monday_arg">月曜日に %1$s</string>
+    <string name="tuesday_arg">火曜日 %1$s</string>
+    <string name="wednesday_arg">水曜日に %1$s</string>
+    <string name="thursday_arg">木曜日に %1$s</string>
+    <string name="friday_arg">金曜日 %1$s</string>
+    <string name="saturday_arg">土曜日 %1$s</string>
+    <string name="sunday_arg">日曜日 %1$s</string>
+    
+    <string name="monday">月曜日に</string>
+    <string name="tuesday">火曜日に</string>
+    <string name="wednesday">水曜日に</string>
+    <string name="thursday">木曜日に</string>
+    <string name="friday">金曜日</string>
+    <string name="saturday">土曜日</string>
+    <string name="sunday">日曜日</string>
+
+    <!-- comm Text -->
+    <string name="ok">OK</string>
+    <string name="cancel">取り消し</string>
+    <string name="time_picker_dialog_title">時刻の設定</string>
+    <string name="date_picker_dialog_title">日付の設定</string>
+    <string name="date_time_done">完了</string>
+    <string name="date_time_cancel">取り消し</string>
+    <string name="error_request_failed">ネットワークを使用できません。後でやり直してください</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="grey">#ff58616d</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="black">#ff000000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="white">#ffffffff</color>
+
+    <!-- green -->
+    <color name="green_00a918">#FF00A918</color>
+
+    <!-- blue -->
+    <color name="blue_09c">#FF0099CC</color>
+    <color name="blue_33b5e5c">#FF33b5e5</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- gray -->
+    <color name="gray_666666">#ff666666</color>
+    <color name="gray_888888">#ff888888</color>
+
+    <!-- color -->
+    <color name="color_494949">#FF494949</color>
+
+    <!-- red -->
+    <color name="red_221">#d00</color>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Pc.Dialog.Theme.Base" parent="Theme.Base.AppCompat.Dialog.Light.FixedSize">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@drawable/trans</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <style name="Loading.Dialog.Theme" parent="Pc.Dialog.Theme.Base">
+        <item name="android:gravity">center</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <!-- <item name="android:windowBackground">@android:color/transparent</item> -->
+    <style name="My.Dialog.Theme" parent="Pc.Dialog.Theme.Base">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="Bottom.Dialog.Theme" parent="Pc.Dialog.Theme.Base">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation.Bottom</item>
+        <item name="android:background">@drawable/trans</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Top.Dialog.Theme" parent="Pc.Dialog.Theme.Base">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation.Top</item>
+        <item name="android:background">@drawable/trans</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="DialogAnimation.Bottom" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_down_out</item>
+    </style>
+
+    <style name="DialogAnimation.Top" parent="@android:style/Animation.Dialog">
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+
+    <style name="DialogStyle" />
+
+    <style name="Alert.DialogStyle.Title" parent="DialogStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_494949</item>
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+    </style>
+
+    <style name="Alert.DialogStyle.Button" parent="DialogStyle">
+        <item name="android:shadowDx">0.2</item>
+        <item name="android:shadowDy">0.2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/TitleTextSize</item>
+        <item name="android:background">@drawable/alert_dialog_button</item>
+    </style>
+
+    <style name="Alert.DialogStyle.RedButton" parent="DialogStyle">
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/TitleTextSize</item>
+        <item name="android:background">@drawable/alert_dialog_redbtn</item>
+    </style>
+
+    <style name="Alert.DialogStyle.CancelButton" parent="DialogStyle">
+        <item name="android:shadowDx">0.2</item>
+        <item name="android:shadowDy">0.2</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/alert_dialog_cancel_btntext_color</item>
+        <item name="android:textSize">@dimen/TitleTextSize</item>
+        <item name="android:background">@drawable/alert_dialog_cancel_btn</item>
+    </style>
+
+    <style name="PopupWindow" />
+    <!-- popupwindow动画 -->
+    <style name="popupWindowAnimation.Bottom" parent="@style/PopupWindow">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_down_out</item>
+    </style>
+
+</resources>

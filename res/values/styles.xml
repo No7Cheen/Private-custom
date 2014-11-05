@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="empty_info_style">
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+        <item name="android:textColor">#858484</item>
+    </style>
+
+    <style name="CalendarTheme" parent="AppTheme">
+        <item name="CalendarStyle">@style/CalendarMonthStyle</item>
+    </style>
+
+    <style name="CalendarMonthStyle" parent="AppTheme">
+        <item name="weekLabelBg">#FF2C5C76</item>
+        <item name="weekLabelHeight">45dip</item>
+        <item name="weekLabelTxtColor">#FFF2F3F4</item>
+        <item name="weekLabelTxtSize">16sp</item>
+        <item name="lineWidth">1dip</item>
+        <item name="lineColor">#FFDEDEDE</item>
+        <item name="datTxtColor_Normal">#FF494949</item>
+        <item name="dayTxtSize_Normal">17sp</item>
+        <item name="outMonthColor">#FFE2E3E4</item>
+        <item name="selecteColor">#FF1A992C</item>
+    </style>
+
+    <!-- text size 16.0dip -->
+    <style name="Font.B" parent="">
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+    </style>
+    <!-- text size 12.0dip -->
+    <style name="Font.B1" parent="Font.B">
+        <item name="android:textSize">@dimen/SmallestTextSize</item>
+    </style>
+    <!-- text size 14.0dip -->
+    <style name="Font.B2" parent="Font.B">
+        <item name="android:textSize">@dimen/SmallTextSize</item>
+    </style>
+    <!-- text size 15.0dip -->
+    <style name="Font.B3" parent="Font.B">
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+    </style>
+    <!-- text size 16.0dip -->
+    <style name="Font.B4" parent="Font.B">
+        <item name="android:textSize">@dimen/LargeTextSize</item>
+    </style>
+
+    <style name="SeekBarPlus" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seek_line</item>
+        <item name="android:indeterminateDrawable">@drawable/seek_line</item>
+        <item name="android:thumb">@drawable/seek_thumb</item>
+        <item name="android:focusable">true</item>
+        <item name="android:thumbOffset">12dip</item>
+    </style>
+
+    <style name="SeekBarPlusStyle" parent="SeekBarPlus"></style>
+
+</resources>

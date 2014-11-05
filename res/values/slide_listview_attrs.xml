@@ -1,0 +1,9 @@
+<resources>
+
+    <declare-styleable name="SlideListViewItem">
+        <attr name="showview" format="reference" />
+        <attr name="hideview" format="reference" />
+        <attr name="slide" format="boolean" />
+    </declare-styleable>
+
+</resources>
