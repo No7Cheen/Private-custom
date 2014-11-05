@@ -1,0 +1,139 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+   public *;
+}
+
+# Apache第三方包不提示警告，跳过混淆
+-dontwarn org.apache.**
+-keep class org.apache.** { *;}
+
+-dontwarn android.support.**
+-keep class android.support.** { *;}
+
+
+-libraryjars libs/android-support-v7-appcompat.jar
+-dontwarn android.support.v7.**
+-keep class android.support.v7.** { *;}
+-keep interface android.support.v7.app.** { *; }  
+-keep public class * extends android.support.v7.** 
+
+-libraryjars libs/android-support-v7-gridlayout.jar
+-dontwarn android.support.v7.**
+-keep class android.support.v7.** { *;}
+-keep interface android.support.v7.gridlayout.** { *; }  
+-keep interface android.support.v7.widget.** { *; }
+-keep public class * extends android.support.v7.** 
+
+-libraryjars libs/android-support-v4.jar
+-dontwarn android.support.v4.**    
+-keep class android.support.v4.** { *; }  
+-keep interface android.support.v4.app.** { *; }  
+-keep public class * extends android.support.v4.**  
+-keep public class * extends android.app.Fragment
+
+# -libraryjars libs/annotations.jar
+# -dontwarn android.annotations.**
+# -keep class android.annotations.** { *;}
+
+# -libraryjars libs/annotations.jar
+# -dontwarn com.hp.hpl.sparta.**
+# -keep class com.hp.hpl.sparta.** { *;}
+
+-libraryjars libs/gson-2.2.4.jar
+-dontwarn com.google.gson.**
+-keep class com.google.gson.** { *;}
+
+-libraryjars libs/nineoldandroids-2.4.0.jar
+-dontwarn com.nineoldandroids.**
+-keep class com.nineoldandroids.** { *;}
+
+-libraryjars libs/pinyin4j-2.5.0.jar
+-dontwarn demo.**
+-keep class demo.** { *;}
+-keep class demo.Pinyin4jAppletDemo { *;}
+-keep class demo.Pinyin4jAppletDemo$1 { *;}
+-keep class demo.Pinyin4jAppletDemo$2 { *;}
+-keep class demo.Pinyin4jAppletDemo$3 { *;}
+
+-dontwarn com.hp.hpl.**
+-keep class com.hp.hpl.** { *;}
+
+-dontwarn net.sourceforge.pinyin4j.**
+-keep class net.sourceforge.pinyin4j.** { *;}
+
+# -libraryjars libs/dom4j-1.6.1.jar
+# -dontwarn org.dom4j.**
+# -keep class org.dom4j.** { *;}
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep class android.support.v7.appcompat.** { *;}
+# -keep class android.support.v7.appcompat.R.** { *;}
+# -keep class android.support.v7.appcompat.R$anim { *;}
+# -keep class android.support.v7.appcompat.R$animator { *;}
+# -keep class android.support.v7.appcompat.R$array { *;}
+# -keep class android.support.v7.appcompat.R$attr { *;}
+# -keep class android.support.v7.appcompat.R$bool { *;}
+# -keep class android.support.v7.appcompat.R$color { *;}
+# -keep class android.support.v7.appcompat.R$dimen { *;}
+# -keep class android.support.v7.appcompat.R$drawable { *;}
+# -keep class android.support.v7.appcompat.R$id { *;}
+# -keep class android.support.v7.appcompat.R$integer { *;}
+# -keep class android.support.v7.appcompat.R$interpolator { *;}
+# -keep class android.support.v7.appcompat.R$layout { *;}
+# -keep class android.support.v7.appcompat.R$menu { *;}
+# -keep class android.support.v7.appcompat.R$raw { *;}
+# -keep class android.support.v7.appcompat.R$string { *;}
+# -keep class android.support.v7.appcompat.R$style { *;}
+# -keep class android.support.v7.appcompat.R$xml { *;}
+# -keep class android.support.v7.appcompat.R$styleable { *;}
+
+-keep class com.pc.app.** { *;}
+-keep class com.pc.db.** { *;}
+-keep class com.pc.ui.** { *;}
+-keep class com.pc.utils.** { *;}
+-keep class com.slidingmenu.lib.** { *;}
+-keep class com.com.openresource.ab.db.** { *;}
+-keep class com.privatecustom.publiclibs.** { *;}
+# -keep class com.privatecustom.publiclibs.R.** { *;}
+# -keep class com.privatecustom.publiclibs.R$anim { *;}
+# -keep class com.privatecustom.publiclibs.R$animator { *;}
+# -keep class com.privatecustom.publiclibs.R$array { *;}
+# -keep class com.privatecustom.publiclibs.R$attr { *;}
+# -keep class com.privatecustom.publiclibs.R$bool { *;}
+# -keep class com.privatecustom.publiclibs.R$color { *;}
+# -keep class com.privatecustom.publiclibs.R$dimen { *;}
+# -keep class com.privatecustom.publiclibs.R$drawable { *;}
+# -keep class com.privatecustom.publiclibs.R$id { *;}
+# -keep class com.privatecustom.publiclibs.R$integer { *;}
+# -keep class com.privatecustom.publiclibs.R$interpolator { *;}
+# -keep class com.privatecustom.publiclibs.R$layout { *;}
+# -keep class com.privatecustom.publiclibs.R$menu { *;}
+# -keep class com.privatecustom.publiclibs.R$raw { *;}
+# -keep class com.privatecustom.publiclibs.R$string { *;}
+# -keep class com.privatecustom.publiclibs.R$style { *;}
+# -keep class com.privatecustom.publiclibs.R$xml { *;}
+# -keep class com.privatecustom.publiclibs.R$styleable { *;}
