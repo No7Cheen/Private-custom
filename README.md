@@ -1,4 +1,4 @@
-prj name: Private-custom
+name: Private_custom
 
 private-custom是一个Android公共库项目。
 
